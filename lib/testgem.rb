@@ -4,5 +4,10 @@ require_relative "testgem/version"
 
 module Testgem
   class Error < StandardError; end
-  # Your code goes here...
+  
+  
+  def self.scramble(array)
+    array.shuffle
+  end
+  
 end
